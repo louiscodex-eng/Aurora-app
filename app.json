@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "aurora",
+    "slug": "aurora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "aurora",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#161622",
+      "resizeMode": "contain",
+      "image": "./assets/images/logo.png"},
+    "newArchEnabled":true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#161622"
+      },
+      "edgeToEdgeEnabled": true
+    },
+   
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#161622"
+        }
+      ]
+    ] 
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+
